@@ -25,7 +25,7 @@ const calendarEvents = [
 
 export const Dashboard = () => {
     return (
-        <div className="min-h-screen bg-primary">
+        <div className="min-h-full bg-primary">
             {/* Notification Banner */}
             <div className="border-b border-utility-blue-200 bg-utility-blue-50">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -223,9 +223,9 @@ export const Dashboard = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="mb-4 flex items-center gap-2">
-                                <ButtonUtility color="tertiary" size="sm" icon={ChevronLeft} />
-                                <ButtonUtility color="tertiary" size="sm" icon={ChevronRight} />
+                            <div className="mb-4 flex items-center gap-2 pt-4">
+                                <ButtonUtility className="rounded-full" color="tertiary" size="md" icon={ChevronLeft} />
+                                <ButtonUtility color="tertiary" size="md" icon={ChevronRight} />
                             </div>
                         </div>
 

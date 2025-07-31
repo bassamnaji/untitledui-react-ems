@@ -8,7 +8,7 @@ export const HomeScreen = () => {
     const clipboard = useClipboard();
 
     return (
-        <div className="flex h-dvh flex-col">
+        <div className="flex h-full flex-col">
             <div className="flex min-h-0 flex-1 flex-col items-center justify-center px-4">
                 <div className="relative flex size-28 items-center justify-center">
                     <UntitledLogoMinimal className="size-10" />
